@@ -13,3 +13,9 @@ DATABASE_USER=
 DATABASE_PASSWORD=  
 DATABASE_HOST=  
 DATABASE_PORT=  
+
+
+## 開発環境起動コマンド
+pipenv shell
+pipenv install パッケージetc
+pythonmanage.py runserver --settings=config.settings.local
